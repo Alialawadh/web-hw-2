@@ -1,0 +1,272 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>films</title>
+    
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="inception.css">
+</head>
+<body>
+
+  
+
+    <nav class="navbar navbar-expand-lg navbar-light navthing">
+
+      
+      
+      <!-- Page Content -->
+      <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+      
+      <div>
+        <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+        <div class="w3-container">
+         
+        </div>
+      </div>
+           
+      <script>
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+      
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+      </script>
+            <img class="logo" src="logo.png">
+            <a class="navbar-brand" href="#">Films and TV shows</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Register
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="sign.html"> sign in </a>
+                    <a class="dropdown-item" href="sign up.html"> sign up </a>
+                </div>
+                </li>
+
+                <li class="nav-item active">
+                <a class="nav-link" href="./index.html"> Home <span class="sr-only">(current)</span></a>
+                </li>
+                
+               
+            </ul>
+            </div>
+
+            <div align="left"  class="topnav">
+              <input type="text" placeholder="Search..">
+            </div>  
+
+            <form method="post" action="sign.html">
+            <div align="right" class="signin">
+              <button> sign in </button>
+            </div>
+            </form>
+
+            
+      </nav>
+
+      <div class="w3-sidebar w3-bar-block w3-animate-left side" style="display:none;z-index:5" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+        <a href="./sign.html" class="w3-bar-item w3-button">Sign in</a>
+        <a href="./index.html" class="w3-bar-item w3-button">Home</a>
+        <p class="mov">                   MOVIES                    </p>
+        <a href="./interstaller.html" class="w3-bar-item w3-button">interstaller</a>
+        <a href="inception.html" class="w3-bar-item w3-button">inception</a>
+        <a href="charlies angels.html" class="w3-bar-item w3-button">charlies angels</a>
+        <a href="Django.html" class="w3-bar-item w3-button">Django</a>
+        <p class="mov">                   TV SHOWS                    </p>
+        <a href="Game of thrones.html" class="w3-bar-item w3-button">Game of thrones</a>
+        <a href="Breaking bad.html" class="w3-bar-item w3-button">Breaking bad</a>
+        <a href="Vikings.html" class="w3-bar-item w3-button">Vikings</a>
+        <a href="Attack on Titan.html" class="w3-bar-item w3-button">Attack on Titan</a>
+      </div>
+      
+
+    
+
+              <div class="header2 bounce"> 
+                    <h2 align="center">  (second homework) اهلا بك في موقع علي العوض للأفلام والمسلسلات
+                    </h2>
+              </div>
+              <div class="span" > 
+                  <p>
+                        تصفح لترى بعض الافلام و المسلسلات الموجوده في الموقع                
+                  </p>
+                </div>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.UdolDDV9MlkpHAA81OFPtgHaLH&pid=Api&P=0&w=300&h=300" class="d-block w-100" height="800px" width="1000px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Interstaller/film</h5>
+              <p>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg" class="d-block w-100" height="800px" width="1000px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>inception/flim</h5>
+              <p>A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg" class="d-block w-100" height="800px" width="1000px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Game of Thrones</h5>
+              <p> تقاتل تسع عائلات نبيلة من أجل السيطرة على أراضي ويستروس ، بينما يعود عدو قديم بعد أن كان خاملاً لآلاف السنين  </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" class="d-block w-100"  height="800px" width="1000px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>يتحول مدرس كيمياء في المدرسة الثانوية مصابًا بسرطان الرئة غير القابل للتشغيل إلى تصنيع وبيع الميثامفيتامين من أجل تأمين مستقبل عائلته.</p>
+            </div>
+          </div>
+
+        </div>
+        
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+
+      <div class="movies" >
+          Movies
+      </div>
+
+    <div class="cards"> 
+      <div class="card" >
+        <img src="https://tse4.mm.bing.net/th?id=OIP.UdolDDV9MlkpHAA81OFPtgHaLH&pid=Api&P=0&w=300&h=300" class="card-img-top" height="300px" width="300px">
+        <div class="card-body">
+          <h5 class="card-title">interstaller</h5>
+          <p class="card-text"> يسافر فريق من المستكشفين عبر ثقب دودي في الفضاء في محاولة لضمان بقاء البشرية.  </p>
+          <a href="./interstaller.html" target="_blank" class="btn btn-primary botton"> اضغط للذهاب الى صفحه الفلم </a>
+        </div>
+      </div>
+      
+      <div class="card" >
+        <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg" class="card-img-top" height="300px" width="300px" >
+        <div class="card-body">
+          <h5 class="card-title">inception</h5>
+          <p class="card-text">يُعطى اللص الذي يسرق أسرار الشركات من خلال استخدام تقنية مشاركة الأحلام المهمة العكسية المتمثلة في غرس فكرة في عقل الجماعة الأوروبية.</p>
+          <a href="./inception.html" class="btn btn-primary botton">اضغط للذهاب الى صفحه الفلم</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="https://cdn1-www.comingsoon.net/assets/uploads/2019/10/charlies.jpg" class="card-img-top" height="300px" width="300px" >
+        <div class="card-body">
+          <h5 class="card-title">charlies angels</h5>
+          <p class="card-text">عندما يصرح مهندس أنظمة شاب بالصافرة على تقنية خطرة ، يتم استدعاء ملائكة تشارلي للعمل ، مما يضع حياتهم على المحك لحمايتنا جميعًا.</p>
+          <a href="./charlies angels.html" class="btn btn-primary botton">اضغط للذهاب الى صفحه الفلم</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://3.bp.blogspot.com/-nsGRRS4HYC8/URVAVzF7YNI/AAAAAAAAAkI/S4Gix7vhUf8/s1600/django-unchained-2012-movie-wallpaper-for-1920x1200-widescreen-11-488.jpg" class="card-img-top"  height="300px" width="300px">
+        <div class="card-body">
+          <h5 class="card-title">Django</h5>
+          <p class="card-text">بمساعدة صائد الجوائز الألماني ، ينطلق عبد مطلق سراحه لإنقاذ زوجته من مالك مزرعة ميسيسيبي الوحشي.</p>
+          <a href="./Django.html" class="btn btn-primary botton">اضغط للذهاب الى صفحه الفلم</a>
+        </div>
+        
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="tvshows" >
+        TV Shows
+    </div>
+    
+    
+    <div class="cards"> 
+      <div class="card" >
+        <img src="https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg" class="card-img-top" height="300px" width="300px">
+        <div class="card-body">
+          <h5 class="card-title">Game of thrones</h5>
+          <p class="card-text">تقاتل تسع عائلات نبيلة من أجل السيطرة على أراضي ويستروس ، بينما يعود عدو قديم بعد أن كان خاملاً لآلاف السنين</p>
+          <a href="Game of thrones.html" class="btn btn-primary botton"> اضغط للذهاب الى صفحه المسلسل</a>
+        </div>
+      </div>
+      
+      <div class="card" >
+        <img src="https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" class="card-img-top" height="300px" width="300px">
+        <div class="card-body">
+          <h5 class="card-title">Breaking bad</h5>
+          <p class="card-text">يتحول مدرس كيمياء في المدرسة الثانوية مصابًا بسرطان الرئة غير القابل للتشغيل إلى تصنيع وبيع الميثامفيتامين من أجل تأمين مستقبل عائلته.</p>
+          <a href="Breaking bad.html" class="btn btn-primary botton">اضغط للذهاب الى صفحه المسلسل </a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" height="300px" width="300px">
+        <div class="card-body">
+          <h5 class="card-title">Vikings</h5>
+          <p class="card-text">ينقلنا الفايكنج إلى العالم الغامض والوحشي لراجنار لوثبروك ، وهو محارب ومزارع فايكنغ يتوق إلى استكشاف - وإغارة - الشواطئ البعيدة عبر المحيط.</p>
+          <a href="Vikings.html" class="btn btn-primary botton">اضغط للذهاب الى صفحه المسلسل</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQT18izt752jmCOP7_OM3nuM_8CD8fI06jQ2Q&usqp=CAU" class="card-img-top" height="300px" width="300px">
+        <div class="card-body">
+          <h5 class="card-title">Attack on Titan</h5>
+          <p class="card-text">بعد تدمير مسقط رأسه وقتل والدته ، يتعهد الشاب إرين ييغر بتطهير الأرض من جبابرة الإنسان العملاقة التي جلبت البشرية إلى حافة الانقراض</p>
+          <a href="Attack on Titan.html" class="btn btn-primary botton">اضغط للذهاب الى صفحه المسلسل </a>
+        </div>
+        
+      </div>
+      
+      <!-- <br>
+      <br>
+
+      <footer class="footer">
+        <p> socials</p>
+      </footer> -->
+
+
+  
+    
+</body>
+</html>
